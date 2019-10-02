@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+</head>
+<body>
+    <style type="text/css">
+     body{
+         background-image:url(vv.jpg);
+         background-size: cover;
+     }  
+             .bb{
+         width: 300px;
+         height:290px;
+         background-color: rgba(0,0,0,0.5);
+         margin: 0 auto;
+         margin-top: 100px;
+         padding-top: 10px;
+         padding-left: 30px;
+         -webkit-border-radius:15px;
+         -o-border-radius:15ps;
+         -moz-border-radius:15px;
+         color: white;
+         font-weight: bolder;
+         box-shadow: 4px 4px rgba(0,0,0,0.4);
+         font-size: 18px;
+     }
+             .bb input[type="submit"]{
+         width: 100px;
+         height: 35px;
+         border: 0;
+         border-radius: 5px;
+          border-radius: 5px;
+          -webkit-border-radius:5px;
+         -o-border-radius:5ps;
+         -moz-border-radius:5px;
+         background-color: deepskyblue;
+         font-weight: bolder;
+     }
+    </style>
+    <div class="bb">
+        <h2>Registeration Form</h2>
+<form action="insert.php" method="POST">
+    Name:<input type="text" name="username" placeholder="enter your name" required><br><br>
+Email:<input type="email" name="email" placeholder="enter your email" required><br><br>
+Phone:<input type="number" name="phone" placeholder="87688*****" required><br><br>
+password:<input type="password" name="password" placeholder="create password" required><br><br>
+    
+<input type="submit" value="Register">
+
+    
+    </form>
+    </div>
+</body>
+</html>

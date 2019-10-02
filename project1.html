@@ -1,0 +1,78 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>DRBD Services</title>
+ <style type="text/css">
+     body{
+         background-image:url(vv.jpg);
+         background-size: cover;
+     }  
+     .aa{
+         width: 300px;
+         height:280px;
+         background-color: rgba(0,0,0,0.5);
+         margin: 0 auto;
+         margin-top: 100px;
+         padding-top: 10px;
+         padding-left: 50px;
+         -webkit-border-radius:15px;
+         -o-border-radius:15ps;
+         -moz-border-radius:15px;
+         color: white;
+         font-weight: bolder;
+         box-shadow: 4px 4px rgba(0,0,0,0.4);
+         font-size: 18px;
+     }
+     .aa input[type="text"]{
+         width: 200px;
+         height: 35px;
+         border: 0;
+         border-radius: 5px;
+          -webkit-border-radius:5px;
+         -o-border-radius:5ps;
+         -moz-border-radius:5px;
+         padding-left: 5px;
+         
+     }
+     .aa input[type="password"]{
+         width: 200px;
+         height: 35px;
+         border: 0;
+         border-radius: 5px;
+          -webkit-border-radius:5px;
+         -o-border-radius:5ps;
+         -moz-border-radius:5px;
+         padding-left: 5px;
+     }
+     .aa input[type="submit"]{
+         width: 100px;
+         height: 35px;
+         border: 0;
+         border-radius: 5px;
+          border-radius: 5px;
+          -webkit-border-radius:5px;
+         -o-border-radius:5ps;
+         -moz-border-radius:5px;
+         background-color: deepskyblue;
+         font-weight: bolder;
+     }
+    
+    
+    </style>
+</head>
+<body>
+<div class="aa">
+    <h2>Login</h2>
+    <form action="login process.php" method="POST">
+    
+    <input type="text" id="user" name="user" placeholder="Enter your name.." required="user" ><br><br>
+        <input type="password" id="pass" name="pass" placeholder="Enter your password.." required="pass" ><br><br>
+        <input type="submit" value="login">
+     <p class="message"> Forgot Password?
+        </p>
+
+    
+    </form>
+</div>
+</body>
+</html>
